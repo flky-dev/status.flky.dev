@@ -19,7 +19,7 @@ sites:
     url: https://cdn.flky.dev
 
 assignees:
-  - flonky
+  - Flonky
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
@@ -29,6 +29,6 @@ status-website:
   favicon: https://cdn.flky.dev/general/favicon1.ico
   name: flky.dev
   introTitle: "Uptime Monitoring"
-  introMessage: This status page monitors pages on the flky.dev domain.
-  customHeadHtml: "<script async src="https://analytics.flky.dev/tracker.js" data-ackee-server="https://analytics.flky.dev" data-ackee-domain-id="c31ad4c3-047f-4bb1-b426-9018aee46456"></script>"
+  introMessage: "This status page monitors pages on the flky.dev domain."
+  customHeadHtml: '<script async src="https://analytics.flky.dev/tracker.js" data-ackee-server="https://analytics.flky.dev" data-ackee-domain-id="c31ad4c3-047f-4bb1-b426-9018aee46456"></script>'
   theme: dark
