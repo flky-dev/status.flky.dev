@@ -30,13 +30,5 @@ status-website:
   name: flky.dev
   introTitle: "Uptime Monitoring"
   introMessage: This status page monitors pages on the flky.dev domain.
-  navbar:
-    - title: Status
-      href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
   customHeadHtml: "<script async src="https://analytics.flky.dev/tracker.js" data-ackee-server="https://analytics.flky.dev" data-ackee-domain-id="c31ad4c3-047f-4bb1-b426-9018aee46456"></script>"
   theme: dark
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
