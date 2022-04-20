@@ -77,18 +77,16 @@
     "icon": "https://favicons.githubusercontent.com/cdn.flky.dev",
     "slug": "content-delivery-network",
     "status": "up",
-    "uptime": "3.65%",
-    "uptimeDay": "3.65%",
-    "uptimeWeek": "3.65%",
-    "uptimeMonth": "3.65%",
-    "uptimeYear": "3.65%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 156,
     "timeDay": 156,
     "timeWeek": 156,
     "timeMonth": 156,
     "timeYear": 156,
-    "dailyMinutesDown": {
-      "2022-04-20": 1
-    }
+    "dailyMinutesDown": {}
   }
 ]
