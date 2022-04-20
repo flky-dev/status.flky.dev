@@ -17,6 +17,10 @@ sites:
     url: https://analytics.flky.dev
   - name: Content Delivery Network
     url: https://cdn.flky.dev
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 404
 
 assignees:
   - Flonky
