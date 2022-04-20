@@ -1,31 +1,42 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: flky-dev # Your GitHub organization or username, where this repository lives
+repo: status.flky.dev # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  - name: Blog
+    url: https://blog.flky.dev
+  - name: Social Media
+    url: https://social.flky.dev
+  - name: Link Shortener
+    url: https://s.flky.dev
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 404
+  - name: Analytics
+    url: https://analytics.flky.dev
+  - name: Content Delivery Network
+    url: https://cdn.flky.dev
+
+assignees:
+  - flonky
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  cname: status.flky.dev
+  logoUrl: https://cdn.flky.dev/general/pfp.webp
+  favicon: https://cdn.flky.dev/general/favicon1.ico
+  name: flky.dev
+  introTitle: "Uptime Monitoring"
+  introMessage: This status page monitors pages on the flky.dev domain.
   navbar:
     - title: Status
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
+  customHeadHtml: "<script async src="https://analytics.flky.dev/tracker.js" data-ackee-server="https://analytics.flky.dev" data-ackee-domain-id="c31ad4c3-047f-4bb1-b426-9018aee46456"></script>"
+  theme: dark
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
