@@ -40,9 +40,9 @@
     "url": "https://s.flky.dev",
     "icon": "https://favicons.githubusercontent.com/s.flky.dev",
     "slug": "link-shortener",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -51,7 +51,9 @@
     "timeWeek": 118,
     "timeMonth": 114,
     "timeYear": 114,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2022-05-13": 0
+    }
   },
   {
     "name": "Analytics",
@@ -59,11 +61,11 @@
     "icon": "https://favicons.githubusercontent.com/analytics.flky.dev",
     "slug": "analytics",
     "status": "up",
-    "uptime": "99.71%",
+    "uptime": "99.72%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "99.34%",
-    "uptimeMonth": "99.71%",
-    "uptimeYear": "99.71%",
+    "uptimeMonth": "99.72%",
+    "uptimeYear": "99.72%",
     "time": 673,
     "timeDay": 200,
     "timeWeek": 1196,
