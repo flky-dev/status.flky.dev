@@ -60,18 +60,19 @@
     "url": "https://analytics.flky.dev",
     "icon": "https://favicons.githubusercontent.com/analytics.flky.dev",
     "slug": "analytics",
-    "status": "up",
+    "status": "down",
     "uptime": "99.89%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.89%",
-    "time": 520,
-    "timeDay": 153,
-    "timeWeek": 201,
-    "timeMonth": 346,
-    "timeYear": 520,
+    "time": 515,
+    "timeDay": 135,
+    "timeWeek": 192,
+    "timeMonth": 339,
+    "timeYear": 515,
     "dailyMinutesDown": {
+      "2022-06-21": 0,
       "2022-05-11": 47,
       "2022-05-07": 20,
       "2022-05-02": 28
@@ -82,17 +83,19 @@
     "url": "https://cdn.flky.dev",
     "icon": "https://favicons.githubusercontent.com/cdn.flky.dev",
     "slug": "content-delivery-network",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 165,
-    "timeDay": 121,
-    "timeWeek": 139,
-    "timeMonth": 164,
+    "timeDay": 159,
+    "timeWeek": 145,
+    "timeMonth": 165,
     "timeYear": 165,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2022-06-21": 0
+    }
   }
 ]
